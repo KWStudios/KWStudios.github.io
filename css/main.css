@@ -1,0 +1,197 @@
+/* line 1, ../scss/base/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../scss/base/_reset.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 1, ../scss/base/_base.scss */
+.body-main {
+  background-color: #f0f0f0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+}
+
+/* line 7, ../scss/base/_base.scss */
+.container {
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 1000px;
+}
+
+/* line 16, ../scss/base/_base.scss */
+.page {
+  background-color: white;
+  border: 1px #e5e5e5 solid;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  padding: 39px 25px 0;
+  position: relative;
+  width: 100%;
+}
+
+/* line 29, ../scss/base/_base.scss */
+.header {
+  border: 0;
+  margin-left: -25%;
+  padding: 0;
+}
+
+/* line 35, ../scss/base/_base.scss */
+.header-link {
+  background-image: url("../img/logo.png");
+  border: 1px black solid;
+  display: block;
+  height: 116px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 756px;
+}
+
+/* line 46, ../scss/base/_base.scss */
+header h1 {
+  padding: 20px 0 0 10px;
+}
+
+/* line 50, ../scss/base/_base.scss */
+.nav-main {
+  height: 40px;
+}
+/* line 53, ../scss/base/_base.scss */
+.nav-main li {
+  float: left;
+}
+/* line 57, ../scss/base/_base.scss */
+.nav-main a {
+  color: black;
+  display: block;
+  font-size: 32px;
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+/* line 73, ../scss/base/_base.scss */
+.menu {
+  margin-bottom: 15px;
+  margin-top: 4px;
+  padding-left: 70px;
+}
+
+/* line 79, ../scss/base/_base.scss */
+.menu li {
+  background-color: #CCCCCC;
+  margin: 0 1px 0 1px;
+}
+
+/* line 84, ../scss/base/_base.scss */
+.menu li:hover {
+  background-color: #666666;
+}
+
+/* line 88, ../scss/base/_base.scss */
+.menu li:hover > a {
+  color: #FFFFFF;
+}
+
+/* line 92, ../scss/base/_base.scss */
+#content {
+  border: #e6e6e6 1px solid;
+  margin-top: 15px;
+}
+
+/* line 98, ../scss/base/_base.scss */
+#post {
+  margin: 15px;
+  margin-left: 70px;
+  margin-right: 70px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../img/bgpost.png");
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: inline-block;
+  border: #000000 2px solid;
+}
+
+/* line 110, ../scss/base/_base.scss */
+#post p {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #e6e6e6;
+}
+
+/* line 118, ../scss/base/_base.scss */
+.section-head {
+  background-color: #e0e0e0;
+  color: #181227;
+  font-size: 10px;
+  padding: 4px 8px;
+  width: 100%;
+  float: left;
+  height: 20px;
+  text-transform: uppercase;
+}
+
+/* line 130, ../scss/base/_base.scss */
+footer {
+  padding: 5px;
+}
+
+/* line 134, ../scss/base/_base.scss */
+.account-circle {
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+/* line 1, ../scss/modules/_buttons.scss */
+.round {
+  border-radius: 50%;
+}
+
+/* line 5, ../scss/modules/_buttons.scss */
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: 0 none;
+}
+
+/* line 9, ../scss/modules/_buttons.scss */
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 50%;
+}
+
+/* line 18, ../scss/modules/_buttons.scss */
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 50%;
+}
+
+/* line 26, ../scss/modules/_buttons.scss */
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 50%;
+}

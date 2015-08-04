@@ -1,0 +1,138 @@
+.body-main {
+  background-color: $bg-color;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  //width: 88em;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 1000px;
+}
+
+.page {
+  //width: 880px;
+  background-color: $page-color;
+  border: 1px $light-grey solid;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  padding: 39px 25px 0;
+  position: relative;
+  width: 100%;
+}
+
+.header {
+  border: 0;
+  margin-left: -25%;
+  padding: 0;
+}
+
+.header-link {
+  background-image: url('../img/logo.png');
+  border: 1px $black solid;
+  display: block;
+  height: 116px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 756px;
+}
+
+header h1 {
+  padding: 20px 0 0 10px;
+}
+
+.nav-main {
+  height: 40px;
+
+  li {
+    float: left;
+  }
+
+  a {
+    color: $black;
+    display: block;
+    font-size: 32px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: lowercase;
+    //color: #d72132;
+
+    &:hover {
+      //color: #555;
+   
+    }
+  }
+}
+
+.menu {
+  margin-bottom: 15px;
+  margin-top: 4px;
+  padding-left: 70px;
+}
+
+.menu li {
+  background-color: #CCCCCC;
+  margin: 0 1px 0 1px;
+}
+
+.menu li:hover {
+  background-color: #666666;
+}
+
+.menu li:hover > a {
+  color: #FFFFFF;
+}
+
+#content {
+  border: #e6e6e6 1px solid;
+  //border-right: none;
+  margin-top: 15px;
+}
+
+#post {
+  margin: 15px;
+  margin-left: 70px;
+  margin-right: 70px;
+  background-color: rgba( 0, 0, 0, .3);
+  background-image: url('../img/bgpost.png');
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: inline-block;
+  border: #000000 2px solid;
+}
+
+#post p {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #e6e6e6;
+}
+
+.section-head {
+  background-color: #e0e0e0;
+  color: #181227;
+  font-size: 10px;
+  padding: 4px 8px;
+  width: 100%;
+  float: left;
+  height: 20px;
+  //letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+footer {
+  padding: 5px;
+}
+
+.account-circle {
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
+}
