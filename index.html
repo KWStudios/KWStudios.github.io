@@ -1,205 +1,765 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if IE 7]>                  <html class="ie7 no-js" lang="en">     <![endif]-->
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="en">     <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en">  <!--<![endif]-->
 <head>
-    <meta charset="utf-8">
-    <title>A Simple Minecraft HTML5 & CSS3 Server Template by sycoinc</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <script type="text/javascript" src="js/modernizr.js"></script>
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>The Mob Box - Premium Version</title>
+	<meta name="description" content="The Faction Box [Light Version]">
+	<meta name="author" content="sycoinc - www.minecraftwebsitetempaltes.com">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	
+	<!-- CSS
+	================================================== -->
+   <!-- Custom Bootstrap-->
+   <link rel="stylesheet" type="text/css" href="custom/custom-bootstrap.css" />
+   <link rel="stylesheet" type="text/css" href="custom/font-awesome.css" />
+   <!-- Animate CSS-->
+   <link href="css/animate.min.css" rel="stylesheet" media="screen">
+   
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="js/respond.min.js"></script>
+	<![endif]-->
+	
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
 </head>
 <body>
-<div class="preloader" id="preloader">
-    <div class="intro-text">Please wait</div>
-</div>
-<div class="content-container" id="content-container" style="display:none;">
-    <!-- SCENERY START -->
-    <div class="scenery">
-        <div class="clouds" id="clouds"></div>
-        <div class="mountains mountains3">
-            <div class="mountains mountains2">
-                <div class="mountains mountains1">
-                    <div class="beast beast_small" id="beast_small"></div>
-                    <div class="grass1">
-                        <div class="beast beast_big" id="beast_big"></div>
-                        <div class="bushes">
-                            <div class="bush1">
-                                <div class="bush2"></div>
-                            </div>
-                            <div class="grass2"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- FLOATBOX START -->
-        <div class="floatbox" id="floatbox">
-            <h1 class="logo"><img src="img/company-logo.png" alt="Company logo"></h1>
-
-            <h2 class="intro_message">A Simple Minecraft HTML5 & CSS3 Server Template</h2>
-            <!-- Header Content / Intro Area Start -->
-            <p>Some general server information can go here, you can even put small images or a basic menu here.</p>
-            <p>Your Website logo can also be positioned to the left, right or center and be a larger size.</p>
-            <!-- Header Content / Intro Area Start  END -->
-            <!-- SOCIAL START -->
-            <section class="social">
-                <p><span class="follow-text">Follow us</span>
-                    <a href="https://twitter.com/PwegoCinema" class="twitter social-link"></a>
-                    <a href="http://facebook.com/" class="facebook social-link"></a>
-                    <a href="http://www.youtube.com/user/PwegoCinema" class="youtube social-link"></a>
-                    <a href="http://www.planetminecraft.com" class="pmc social-link"></a>
-                    <!-- ADDITIONAL SOCIAL ICONS -->
-                    <!--
-                    <a href="#" class="amazon social-link"></a>
-                    <a href="#" class="android social-link"></a>
-                    <a href="#" class="apple social-link"></a>
-                    <a href="#" class="appstore social-link"></a>
-                    <a href="#" class="behance social-link"></a>
-                    <a href="#" class="blogger social-link"></a>
-                    <a href="#" class="delicious social-link"></a>
-                    <a href="#" class="deviantart social-link"></a>
-                    <a href="#" class="digg social-link"></a>
-                    <a href="#" class="dribbble social-link"></a>
-                    <a href="#" class="dropbox social-link"></a>
-                    <a href="#" class="ebay social-link"></a>
-                    <a href="#" class="facebook social-link"></a>
-                    <a href="#" class="flickr social-link"></a>
-                    <a href="#" class="forrst social-link"></a>
-                    <a href="#" class="google social-link"></a>
-                    <a href="#" class="googledisc social-link"></a>
-                    <a href="#" class="googleplus social-link"></a>
-                    <a href="#" class="hotmail social-link"></a>
-                    <a href="#" class="html5 social-link"></a>
-                    <a href="#" class="instagram social-link"></a>
-                    <a href="#" class="lastfm social-link"></a>
-                    <a href="#" class="linkedin social-link"></a>
-                    <a href="#" class="myspace social-link"></a>
-                    <a href="#" class="paypal social-link"></a>
-                    <a href="#" class="picasa social-link"></a>
-                    <a href="#" class="pinterest social-link"></a>
-                    <a href="#" class="rss social-link"></a>
-                    <a href="#" class="skype social-link"></a>
-                    <a href="#" class="soundcloud social-link"></a>
-                    <a href="#" class="stumbleupon social-link"></a>
-                    <a href="#" class="technorati social-link"></a>
-                    <a href="#" class="tumblr social-link"></a>
-                    <a href="#" class="twitter social-link"></a>
-                    <a href="#" class="vimeo social-link"></a>
-                    <a href="#" class="windows social-link"></a>
-                    <a href="#" class="wordpress social-link"></a>
-                    <a href="#" class="yahoo social-link"></a><br>
-					<a href="#" class="youtube social-link"></a>
-                    
-                    -->
-                </p>
-            </section>
-            <!-- SOCIAL START -->
-        </div>
-        <!-- FLOATBOX END -->
-    </div>
-    <!-- SCENERY END -->
-
-    <!-- CONTENT START -->
-    <section class="content-area" id="content-area">
-        <div class="container">
-            <div class="row">
-                <!-- COLUMN 1 START (ABOUT US) -->
-                <section class="span8 content-section"><h2 class="section-title">Latest Server News</h2>
-				<!------------------------------------------------------------------------------------------------------------------------- 
-                You can place ANY text or additional code in this section, this section of the website will hold the main content you wish
-                to share with your users. I Personally suggest leaving it as a NEWS section, you can add links, small images and more to 
-                this section, just make sure it looks okay when you publish and doesnt mess up the website template.
-                -------------------------------------------------------------------------------------------------------------------------->
-                    <p><h4>Simple HTML5/CSS3 Website Teplate by sycoinc - April 1st 2013</h3></p>
-
-                    <p>This Template has been designed to help those who have some knowledge of HTML and CSS along with being able to upload the files included in the download to a Website 	Host so it can be seen on the internet (some free website hosts MAY allow custom html pages). If you wish to upload these files all i ask is that you keep the 'designed by - sycoinc' link at the bottom of the page. I do offer 'paid' services if you wish for a more customized website, if you wish to know more about this please contact me via a pm.</p>
-                    <!-----------------------------------------------------
-                    The <hr> tag is what makes the white line between posts
-                    ------------------------------------------------------>
-                    <hr>
-                    <p><h4>This is a Responsive Template, It changes depending on browser size! - March 31st 2013</h3></p>
-
-                    <p>A Responsive Website Template is a Template that modifies itself to fit to the viewers browser size OR to fit onto a device like an iPad or iPhone. If you resize your browser you will see things move and change around. Most of the content that you place should auto resize UNLESS you add custom sized images in the News section that are outside the limits i have set in the CSS and HTML.</p>
-                    <hr>
-                    <p><h4>Download this Template, Upload it to your Web Host and customize! - March 29th 2013</h3></p>
+	<div class="top-wrapper">
+		
+		<!-- Header
+		================================================== -->
+		<div class="navbar-wrapper">
+			<header class="navbar navbar-default navbar-top" id="navbar">
+				<div class="container">
 					
-                    <p>There is a full help guide included in the <a href="#">download .zip file located on PMC</a>. You can also get some help by contacting me in my forum thread or by a private message on <a href="#">PMC</a>, my <a href="#">YouTube</a> or the <a href="#">PwegoCinema Twitter Account</a>.</p>
-                </section>
-                <!-- COLUMN 1 END (ABOUT US)-->
+					<div class="navbar-header">
+						<!-- Text Based Logo -->
+						<a class="navbar-brand" href="index.html">The Mob Box</a>
+					</div>
+
+				<div class="navbar-collapse-holder">
+
+						<div class="clearfix">
+							<button type="button" class="navbar-toggle">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							
+							<ul data-breakpoint="992" class="flexnav">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="about.html">About Us</a>
+								</li>
+								<li><a href="our-network.html">Our Network</a></li>
+								<li><a href="page-elements.html">Template Features</a>
+									<ul>
+										<li><a href="page-elements.html">Page Elements</a></li>
+										<li><a href="typography.html">Typography</a></li>
+										<li><a href="faqs.html">FAQs</a></li>
+										<li><a href="404.html">404 Error page</a></li>
+										<li><a href="coming-soon.html">Coming Soon page</a></li>
+									</ul>
+								</li>
+								<li><a href="gallery.html">Gallery</a>
+								</li>
+								<li><a href="contacts.html">Contacts</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>
+		
+
+		<!-- Slider
+		================================================== -->
+		<div class="tp-banner-holder">
+			<div class="tp-banner-holder-inner">
+				<div class="tp-banner-container">
+					<div class="tp-banner" >
+						<ul>
+							<!-- SLIDE#1 -->
+							<li data-transition="fadetobottomfadefromtop" data-slotamount="7" data-masterspeed="1500" >
+								<!-- MAIN IMAGE (blank) -->
+								<img src="rs-plugin/images/transparent.png" alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+								<!-- LAYERS -->
+								<!-- LAYER #1 -->
+								<div class="tp-caption eco-large eco-color-primary customin customout fadeout"
+									data-x="415"
+									data-y="190"
+									data-speed="500"
+									data-start="400"
+									data-easing="Power4.easeOut"
+									data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									data-endeasing="Power1.easeIn">Welcome To The
+								</div>
+								<!-- LAYER #2 -->
+								<div class="tp-caption eco-lg-light customin customout fadeout"
+									data-x="470"
+									data-y="230"
+									data-speed="800"
+									data-start="1200"
+									data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									data-easing="Power4.easeOut">Mob Box
+								</div>
+								
+							</li>
+				
+							<!-- SLIDE#2  -->
+							<li data-transition="fadetobottomfadefromtop" data-slotamount="7" data-masterspeed="1500" >
+								<!-- MAIN IMAGE (blank) -->
+								<img src="rs-plugin/images/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+								<!-- LAYERS -->
+								<!-- LAYER #1 -->
+								<div class="tp-caption eco-large eco-color-secondary sfl fadeout"
+									data-x="left"
+									data-y="185"
+									data-speed="500"
+									data-start="600"
+									data-easing="Power4.easeOut">A Unique Multi Page Template
+								</div>
+								<!-- LAYER #2 -->
+								<div class="tp-caption eco-txt-regular-bg text-left sfr fadeout"
+									data-x="left"
+									data-y="255"
+									data-speed="800"
+									data-start="1000"
+									data-easing="Power4.easeOut">This Template is designed for Faction and PVP servers but can be used for<br/>any type of server as it can be customized to suit your needs.
+								</div>
+							</li>
+				
+							<!-- SLIDE#3 -->
+							<li data-transition="fadetobottomfadefromtop" data-slotamount="7" data-masterspeed="1500" >
+								<!-- MAIN IMAGE (blank) -->
+								<img src="rs-plugin/images/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+								<!-- LAYERS -->
+								<!-- LAYER #1 -->
+								<div class="tp-caption eco-large eco-color-primary sfl fadeout""
+									data-x="left"
+									data-y="185"
+									data-speed="500"
+									data-start="600"
+									data-easing="Power4.easeOut">Link off to external pages
+								</div>
+								<!-- LAYER #2 -->
+								<div class="tp-caption eco-txt-regular-bg text-left sfr fadeout"
+									data-x="left"
+									data-y="275"
+									data-speed="800"
+									data-start="1000"
+									data-easing="Power4.easeOut">You can link off to your forums and other external pages with the below <br>buttons on slides or link in the content.
+									 
+								</div>
+								<!-- LAYER #3 -->
+								<div class="tp-caption sfb fadeout"
+									data-x="left"
+									data-y="375"
+									data-speed="800"
+									data-start="1400"
+									data-easing="Power4.easeOut"
+									data-captionhidden="on">
+									<a href="http://www.minecraftwebsitetemplates.com" target="_blank" class="btn btn-primary">External Link</a>
+								</div>
+							</li>
+
+							<!-- SLIDE#4 -->
+							<li data-transition="fadetobottomfadefromtop" data-slotamount="7" data-masterspeed="1500" >
+								<!-- MAIN IMAGE -->
+								<img src="rs-plugin/images/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+								<!-- LAYERS -->
+								<!-- LAYER #1 -->
+								<div class="tp-caption eco-large eco-color-primary sfl fadeout"
+									data-x="right"
+									data-y="185"
+									data-speed="800"
+									data-start="800"
+									data-easing="Power4.easeOut">1 Page Lite Version Available
+								</div>
+								<!-- LAYER #2 -->
+								<div class="tp-caption eco-txt-regular-bg text-right sfr fadeout"
+									data-x="right"
+									data-y="275"
+									data-speed="800"
+									data-start="1400"
+									data-easing="Power4.easeOut"><p>We also have a 1 Page Template Available that can act as an attractive <br/>landing page with info for your users.
+									</p>
+									<a href="http://www.minecraftwebsitetemplates.com" class="link-bordered">See The Template on the MCWT website</a>
+								</div>
+							</li>
+
+							<!-- SLIDE#5 -->
+							<li data-transition="fadetobottomfadefromtop" data-slotamount="7" data-masterspeed="1500" >
+								<!-- MAIN IMAGE (blank) -->
+								<img src="rs-plugin/images/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+								<!-- LAYERS -->
+								<!-- LAYER #1 -->
+								<div class="tp-caption eco-large eco-color-primary sfl fadeout"
+									data-x="100"
+									data-y="185"
+									data-speed="800"
+									data-start="800"
+									data-easing="Power4.easeOut">Video Support
+								</div>
+								<!-- LAYER #2 -->
+								<div class="tp-caption eco-normal eco-color-secondary sfl fadeout"
+									data-x="100"
+									data-y="265"
+									data-speed="800"
+									data-start="1000"
+									data-easing="Power4.easeOut">YouTube
+								</div>
+								<!-- LAYER #3 -->
+								<div class="tp-caption eco-normal eco-color-secondary sfl fadeout"
+									data-x="100"
+									data-y="305"
+									data-speed="800"
+									data-start="1200"
+									data-easing="Power4.easeOut">Vimeo
+								</div>
+								<!-- LAYER #4 -->
+								<div class="tp-caption eco-normal eco-color-secondary sfl fadeout"
+									data-x="100"
+									data-y="345"
+									data-speed="800"
+									data-start="1400"
+									data-easing="Power4.easeOut">Self-Hosted HTML5
+								</div>
+								<!-- LAYER #5 -->
+								<div class="tp-caption customin customout"
+									data-x="right" data-hoffset="-100"
+									data-y="center" data-voffset="40"
+									data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									data-speed="600"
+									data-start="1000"
+									data-easing="Power4.easeOut"
+									data-endspeed="500"
+									data-endeasing="Power4.easeOut"
+									data-autoplay="false"
+									data-autoplayonlyfirsttime="false"
+									style="z-index: 8"><div class="thumbnail"><iframe width='500' height='281' style='width:500px;height:281px;' src="http://www.youtube.com/embed/Ur1fGGknB2I?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</div>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+
+				<div class="slider-infobar">
+					<i class="fa infobar-trigger"></i>
+					<ul>
+						<li>
+							<i class="fa fa-phone"></i>
+							<span class="name">Server IP:</span>
+							<span class="highlight">mc.pwegoable.com</span>
+						</li>
+						<li>
+							<i class="fa fa-envelope"></i>
+							<span class="name">Youtube:</span>
+							<a href="www.youtube.com/user/PwegoCinema" target="_blank">PwegoCinema</a>
+						</li>
+						<li>
+							<i class="fa fa-envelope"></i>
+							<span class="name">Twitter:</span>
+							<a href="https://twitter.com/sycoinc" target="_blank">sycoinc</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<!-- Slider / End -->
 
 
-                <!-- COLUMN 2 START (SCREENSHOTS) -->
-                <section class="span4 content-section"><h2 class="section-title">Screenshots</h2>
-                    <div class="thumbnails-holder">
-                        <!-- THUMBS START -->
-                        <div class="thumb" title="Image 1 description">
-                            <a href="images/1.jpg" data-rel="prettyPhoto[gal]"><img src="images/thumbs/1.jpg" alt="Image 1 title"></a>
-                        </div>
-                        <div class="thumb" title="Image 2 description">
-                            <a href="images/2.jpg" data-rel="prettyPhoto[gal]"><img src="images/thumbs/2.jpg" alt="Image 2 title"></a>
-                        </div>
-                        <div class="thumb" title="Image 3 description">
-                            <a href="images/3.jpg" data-rel="prettyPhoto[gal]"><img src="images/thumbs/3.jpg" alt="Image 3 title"></a>
-                        </div>
-                        <div class="thumb" title="Image 4 description">
-                            <a href="images/4.jpg" data-rel="prettyPhoto[gal]"><img src="images/thumbs/4.jpg" alt="Image 4 title"></a>
-                        </div>
-                        <div class="thumb" title="Image 5 description">
-                            <a href="images/5.jpg" data-rel="prettyPhoto[gal]"><img src="images/thumbs/5.png" alt="Image 5 title"></a>
-                        </div>
-                        <div class="thumb" title="Image 6 description">
-                            <a href="images/6.jpg" data-rel="prettyPhoto[gal]"><img src="images/thumbs/6.png" alt="Image 6 title"></a>
-                        </div>
-                        <!-- THUMBS END -->
-                    </div><!-- .thumbnails-holder -->
-                    <h2 class="section-title">Latest tweets</h2>
-                    <a class="twitter-timeline" href="https://twitter.com/PwegoCinema" data-widget-id="345699752651931648">Tweets by @PwegoCinema</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
 
-                </section>
-                <!-- COLUMN 2 END (SCREENSHOTS) -->
-            </div>
-            <!-- .row -->
-        </div>
-        <!-- .container -->
-    </section>
-    <!-- CONTENT END-->
-    <!-- FOOTER START -->
-    <footer class="page-footer">
-        <div class="footer-top-bg"></div>
-        <div class="footer-content-wrapper">
-        <!----------------------------------------------------------------------------------- 
-        To use this Template you NEED TO KEEP the Designed By sycoinc link in the footer.
-        Without this in the footer i ask you do not use this template UNLESS HEAVILY EDITED.
-        Since this is a free Template this is all i ask when you use this.
-        ------------------------------------------------------------------------------------>
-            <div class="footer-content">
-                <!-- FOOTER CONTENT START -->
-                Server Name &copy; 2013 - Template Designed by <a href="http://www.minecraftwebsitetemplates.com">sycoinc</a>
-                <!-- FOOTER CONTENT END -->
-            </div>
-        </div>
-    </footer>
-    <!-- FOOTER END -->
-    <!-- SCRIPTS AND TECHICAL STUFF -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/jquery.backgroundpos.min.js"></script>
-    <script src="js/jquery.tweet.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/script.js"></script>
-    <div id="fake_timer" style="display:none"></div>
-    <div class="pattern"></div>
-</div>
-<!-- .content-container -->
+	<!-- Content
+	================================================== -->
+	<main class="main-content">
+		<div class="container">
+
+			<!-- Features -->
+			<section class="section">
+				<div class="title-bordered" data-animation="fadeInUp" data-animation-delay="0">
+					<h2>Server Highlights</h2>
+				</div>
+				
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="icobox icobox__primary" data-animation="fadeInUp" data-animation-delay="200">
+							<div class="icobox-holder">
+								<div class="triangle-top"></div>
+								<i><img src="images/mobs.png" style="width:100%"/></i>
+								<div class="triangle-bottom"></div>
+							</div>
+							<div class="icobox-desc">
+								<div class="icobox-desc-inner1">
+									<div class="icobox-desc-inner2">
+										<h3><a href="#">Custom Mobs</a></h3>
+										<p>We have a wide range of custom mobs on our server so you never get bored! Pink Zombies you say?</p>
+										<a href="http://youtu.be/Ur1fGGknB2I" class="btn btn-primary" rel="shadowbox;height=140;width=120">See Demo Video</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="icobox icobox__secondary" data-animation="fadeInUp" data-animation-delay="400">
+							<div class="icobox-holder">
+								<div class="triangle-top"></div>
+								<i><img src="images/money.png" style="width:100%"/></i>
+								<div class="triangle-bottom"></div>
+							</div>
+							<div class="icobox-desc">
+								<div class="icobox-desc-inner1">
+									<div class="icobox-desc-inner2">
+										<h3><a href="#">in-Game Shops</a></h3>
+										<p>Purchase In-Game items with gold obtained while playing on our server to get great rare items.</p>
+										<a href="http://youtu.be/Ur1fGGknB2I" class="btn btn-secondary" target="_blank">See Demo Video</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="icobox icobox__tertiary" data-animation="fadeInUp" data-animation-delay="600">
+							<div class="icobox-holder">
+								<div class="triangle-top"></div>
+								<i><img src="images/dungeon.png" style="width:100%"/></i>
+								<div class="triangle-bottom"></div>
+							</div>
+							<div class="icobox-desc">
+								<div class="icobox-desc-inner1">
+									<div class="icobox-desc-inner2">
+										<h3><a href="#">Custom Dungeons</a></h3>
+										<p>We have a custom made plug-in to generate random dungeons around our worlds that reset ever 4 hours!</p>
+										<a href="http://youtu.be/Ur1fGGknB2I" class="btn btn-tertiary" target="_blank">See Demo Video</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="icobox icobox__primary" data-animation="fadeInUp" data-animation-delay="800">
+							<div class="icobox-holder">
+								<div class="triangle-top"></div>
+								<i><img src="images/random-items.png" style="width:100%"/></i>
+								<div class="triangle-bottom"></div>
+							</div>
+							<div class="icobox-desc">
+								<div class="icobox-desc-inner1">
+									<div class="icobox-desc-inner2">
+										<h3><a href="#">Random Loot</a></h3>
+										<p>Obtain random and rare loot of ALL mobs on our server, EVEN when killing enemy factions in PVP</p>
+										<a href="http://youtu.be/Ur1fGGknB2I" class="btn btn-primary" target="_blank">See Demo Video</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Features / End -->
+
+			<div class="spacer-lg"></div>
+			
+		<!-- Donations Link these donations off to your buycraft store using an absolute url-->
+			<div class="title-bordered" data-animation="fadeInUp" data-animation-delay="0">
+				<h2>Donation Options</h2>
+				Our donations work on a global basis, donate for something to help boost the WHOLE server.
+			</div>
+			<ul class="gallery-list gallery-list__4cols">
+				<li class="gallery-item" data-animation="fadeInLeft" data-animation-delay="300">
+					<figure class="gallery-thumb">
+						<a href="http://www.buycraft.com" target="_blank"><img src="images/damageboost-icon.png" alt=""></a>
+					</figure>
+					<div class="gallery-caption">
+						<h5><a href="http://www.buycraft.com" target="_blank">Server Attack Boost (2h)</a></h5>
+						<span class="date">$10 USD</span>
+					</div>
+				</li>
+				<li class="gallery-item" data-animation="fadeInLeft" data-animation-delay="600">
+					<figure class="gallery-thumb">
+						<a href="http://www.buycraft.com" target="_blank"><img src="images/healthboost-icon.png" alt=""></a>
+					</figure>
+					<div class="gallery-caption">
+						<h5><a href="http://www.buycraft.com" target="_blank">Server Health Boost (2h)</a></h5>
+						<span class="date">$15 USD</span>
+					</div>
+				</li>
+				<li class="gallery-item" data-animation="fadeInRight" data-animation-delay="900">
+					<figure class="gallery-thumb">
+						<a href="http://www.buycraft.com" target="_blank"><img src="images/gemdrop-icon.png" alt=""></a>
+					</figure>
+					<div class="gallery-caption">
+						<h5><a href="http://www.buycraft.com" target="_blank">Server Gem Drop (6h)</a></h5>
+						<span class="date">$25 USD</span>
+					</div>
+				</li>
+				<li class="gallery-item" data-animation="fadeInRight" data-animation-delay="1200">
+					<figure class="gallery-thumb">
+						<a href="http://www.buycraft.com" target="_blank"><img src="images/ultimateboss-icon.png" alt=""></a>
+					</figure>
+					<div class="gallery-caption">
+						<h5><a href="http://www.buycraft.com" target="_blank">Summon Ultimate Boss</a></h5>
+						<span class="date">$100 USD</span>
+					</div>
+				</li>
+			</ul>
+			<div class="text-center">
+				<a href="http://www.buycraft.com" class="btn btn-primary" data-animation="fadeInDown" data-animation-delay="1500">View All Donation Options</a>
+			</div>
+			<!-- Donations End -->
+
+			<div class="spacer-lg"></div>
+			<!-- Other Features -->
+			<div class="title-bordered" data-animation="fadeInUp" data-animation-delay="0">
+				<h2>Other Great Features</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<!-- List Group (thumb) -->
+					<ul class="list-group list-group__color-secondary">
+						<li class="list-group-item" data-animation="fadeInLeft" data-animation-delay="0">
+							<h5 class="bold">Clan Based Systems</h5>
+							Join a clan to make questing and raiding easier.
+						</li>
+						<li class="list-group-item" data-animation="fadeInLeft" data-animation-delay="200">
+							<h5 class="bold">Quests</h5>
+							100s of quests build around your class and level. 
+						</li>
+						<li class="list-group-item" data-animation="fadeInLeft" data-animation-delay="400">
+							<h5 class="bold">Smart Mobs / AI</h5>
+							Villagers are useful on our server, they fight, trade and even attack!
+						</li>
+					</ul>
+					<!-- List Group (thumb) / End -->
+				</div>
+				<div class="col-md-4">
+					<!-- List Group (thumb) -->
+					<ul class="list-group list-group__color-secondary">
+						<li class="list-group-item" data-animation="fadeInLeft" data-animation-delay="0">
+							<h5 class="bold">Clan Based Systems</h5>
+							Join a clan to make questing and raiding easier.
+						</li>
+						<li class="list-group-item" data-animation="fadeInLeft" data-animation-delay="200">
+							<h5 class="bold">Quests</h5>
+							100s of quests build around your class and level. 
+						</li>
+						<li class="list-group-item" data-animation="fadeInLeft" data-animation-delay="400">
+							<h5 class="bold">Smart Mobs / AI</h5>
+							Villagers are useful on our server, they fight, trade and even attack!
+						</li>
+					</ul>
+					<!-- List Group (thumb) / End -->
+				</div>
+				<div class="col-md-4">
+					<!-- Accordion -->
+					<div class="panel-group accordion" id="accordion2" data-animation="fadeInRight" data-animation-delay="0">
+						<div class="panel">
+							<div class="panel-heading">
+								<a data-toggle="collapse" data-parent="#accordion2" href="#collapse1" class="panel-title">
+									<span class="panel-title-inner">
+										Feature Highlight Title
+									</span>
+								</a>
+							</div>
+							<div id="collapse1" class="panel-collapse collapse in">
+								<div class="panel-body">
+									Here you can make a feature highlight description to describe in a little more detail each feature listed to the left
+								</div>
+							</div>
+						</div>
+						<div class="panel">
+							<div class="panel-heading">
+								<a data-toggle="collapse" data-parent="#accordion2" href="#collapse2" class="panel-title collapsed">
+									<span class="panel-title-inner">
+										Feature Highlight Title
+									</span>
+								</a>
+							</div>
+							<div id="collapse2" class="panel-collapse collapse">
+								<div class="panel-body">
+									Here you can make a feature highlight description to describe in a little more detail each feature listed to the left
+								</div>
+							</div>
+						</div>
+						<div class="panel">
+							<div class="panel-heading">
+								<a data-toggle="collapse" data-parent="#accordion2" href="#collapse3" class="panel-title collapsed">
+									<span class="panel-title-inner">
+										Feature Highlight Title
+									</span>
+								</a>
+							</div>
+							<div id="collapse3" class="panel-collapse collapse">
+								<div class="panel-body">
+									Here you can make a feature highlight description to describe in a little more detail each feature listed to the left
+								</div>
+							</div>
+						</div>
+						<div class="panel">
+							<div class="panel-heading">
+								<a data-toggle="collapse" data-parent="#accordion2" href="#collapse4" class="panel-title collapsed">
+									<span class="panel-title-inner">
+										Feature Highlight Title
+									</span>
+								</a>
+							</div>
+							<div id="collapse4" class="panel-collapse collapse">
+								<div class="panel-body">
+									Here you can make a feature highlight description to describe in a little more detail each feature listed to the left
+								</div> 
+							</div>
+						</div>
+					</div>
+					<!-- Accordion / End -->
+				</div>
+			</div>
+			<!-- Other Features / End -->
+
+			<div class="spacer-lg"></div>
+
+
+			<!-- Team -->
+			<div class="title-bordered" data-animation="fadeInUp" data-animation-delay="0">
+				<h2>The Server Staff Team</h2>
+			</div>
+			<div class="team-list-wrapper">
+				<ul class="team-list">
+					<li class="member">
+						<div class="clearfix">
+							<figure class="thumbnail">
+								<a href="#"><img src="images/steve.png" alt="" class="img-responsive"></a>
+							</figure>
+							<header class="member-header">
+								<h3><a href="#">Steve Builder</a></h3>
+								<span class="info">Co-founder</span>
+							</header>
+							<div class="member-desc">
+								Steve Builder is the Co-founder of the Factions box, and can often be found killing sheep. 
+							</div>
+						</div>
+					</li>
+					<li class="member">
+						<div class="clearfix">
+							<figure class="thumbnail">
+								<a href="#"><img src="images/steve.png" alt="" class="img-responsive"></a>
+							</figure>
+							<header class="member-header">
+								<h3><a href="#">Steve Builder</a></h3>
+								<span class="info">Co-founder</span>
+							</header>
+							<div class="member-desc">
+								Steve Builder is the Co-founder of the Factions box, and can often be found killing sheep.  
+							</div>
+						</div>
+					</li>
+					<li class="member">
+						<div class="clearfix">
+							<figure class="thumbnail">
+								<a href="#"><img src="images/steve.png" alt="" class="img-responsive"></a>
+							</figure>
+							<header class="member-header">
+								<h3><a href="#">Steve Builder</a></h3>
+								<span class="info">Moderator</span>
+							</header>
+							<div class="member-desc">
+								Steve Builder is a moderator of the Factions box, and can often be found picking roses. 
+							</div>
+						</div>
+					</li>
+					<li class="member">
+						<div class="clearfix">
+							<figure class="thumbnail">
+								<a href="#"><img src="images/steve.png" alt="" class="img-responsive"></a>
+							</figure>
+							<header class="member-header">
+								<h3><a href="#">Steve Builder</a></h3>
+								<span class="info">Moderator</span>
+							</header>
+							<div class="member-desc">
+								Steve Builder is a moderator of the Factions box, and can often be found picking roses.  
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- Team / End -->
+
+
+			<div class="spacer-lg"></div>
+
+
+			<!-- Phone Block -->
+			<div class="cta cta__fullw">
+				Head over to our forums for more information
+				<strong><a href="#" target="_blank">The Mob Box Forums</a></strong>
+			</div>
+			<!-- Phone Block / End  -->
+
+		</div>
+	</main>
+
+
+
+	<!-- Footer
+	================================================== -->
+	<div class="footer-wrap">
+		
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<!-- Widgets -->
+				<section class="footer-widgets">
+					<div class="row">
+						<div class="col-xs-6 col-sm-3 col-md-3">
+							<!-- Phone Widget -->
+							<div class="widget widget__footer">
+								<h4 class="widget-title">Server IP</h4>
+								<div class="widget-body">
+									<ul class="info-list">
+										<li>mc.pwegoable.com</li>
+										<li>us.servername.com</li>
+									</ul>
+								</div>
+							</div>
+							<!-- Phone Widget / End -->
+						</div>
+						<div class="col-xs-6 col-sm-3 col-md-3">
+							<!-- Email Widget -->
+							<div class="widget widget__footer">
+								<h4 class="widget-title">Email</h4>
+								<div class="widget-body">
+									<ul class="info-list">
+										<li><a href="mailto:your_email_goes_here">support@servername.com</a></li>
+										<li><a href="mailto:your_email_goes_here">donations@servername.com</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- Email Widget / End -->
+						</div>
+						<div class="clearfix visible-xs"></div>
+						<div class="col-xs-6 col-sm-3 col-md-3">
+							<!-- Address Widget -->
+							<div class="widget widget__footer">
+								<h4 class="widget-title">Other Info</h4>
+								<div class="widget-body">
+									<ul class="info-list">
+										<li>Other information can be placed here<br/>for use.</li>
+									</ul>
+								</div>
+							</div>
+							<!-- Address Widget / End -->
+						</div>
+						<div class="col-xs-6 col-sm-3 col-md-3">
+							<!-- Social Links Widget -->
+							<div class="widget widget__footer">
+								<h4 class="widget-title">Social</h4>
+								<div class="widget-body">
+									<ul class="social-list social-list__footer list-unstyled">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="https://twitter.com/sycoinc"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="https://www.youtube.com/user/PwegoCinema"><i class="fa fa-youtube"></i></a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- Social Links Widget / End -->
+						</div>
+					</div>
+				</section>
+				<!-- Widgets / End-->
+
+			</div>
+		</footer>
+		<!-- Footer / End -->
+
+		<!-- Copyright -->
+		<div class="copyright">
+			<div class="container">
+				&copy; The Mob Box, 2014. All rights reserved. | <span class="copy-txt"><a href="http://www.minecraftwebsitetemplates.com" target="_blank">Theme By Minecraft Website Templates</a></span><br/>
+				<span class="copy-txt"><a href="http://www.minecraft.net" target="_blank">Minecraft</a> is copyright <a href="https://mojang.com/" target="_blank">Mojang AB</a> and is not affiliated with this server, website or its donation packages.</span>
+				
+			</div>
+		</div>
+		<!-- Copyright / End -->
+
+	</div>
+
+	
+	
+	
+	
+	
+	<!-- Javascript Files
+	================================================== -->
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<!-- hoverIntent -->
+	<script src="js/jquery.hoverIntent.minified.js"></script>
+	<!-- FlexNavigation -->
+	<script src="js/jquery.flexnav.min.js"></script>
+	<!-- Isotope -->
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.imagesloaded.min.js"></script>
+	<!-- Twitter -->
+	<script src="js/jquery.twitter.js"></script>
+	<!-- Flickr Feed -->
+	<script src="js/jquery.flickrfeed.js"></script>
+	<!-- FitVid (responsive video) -->
+	<script src="js/jquery.fitvids.js"></script>
+	<!-- Owl Carousel -->
+	<script src="js/owl.carousel.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.appear.js"></script>
+	<!-- Init File -->
+	<script src="js/custom.js"></script>
+		
+	<!-- Home Page specific scripts
+	================================================== -->
+	<!-- jQuery REVOLUTION Slider  -->
+	<script src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+	<script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+	<script>
+		jQuery(document).ready(function() {
+			jQuery('.tp-banner').revolution({
+				delay:6000,
+				startwidth:1140,
+				startheight:480,
+				hideThumbs:10,
+				fullWidth:"on",
+				forceFullWidth:"on",
+				hideCaptionAtLimit:480,
+				//navigationType: "none",
+				soloArrowLeftHOffset:20,
+				soloArrowRightHOffset:20,
+				soloArrowLeftVOffset:20,
+				soloArrowRightVOffset:20
+			});
+	   });
+	</script>
+	
 </body>
 </html>
