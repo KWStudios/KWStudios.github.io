@@ -9,7 +9,7 @@
 <body>
 
 <?php
-$email_to = "YOUR_EMAIL_HERE";
+$email_to = "support@kwstudios.org";
 $name = $_POST["name"];
 $email = $_POST["email"];
 $message = $_POST["message"];
